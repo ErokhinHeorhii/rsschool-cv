@@ -5,6 +5,7 @@
 * Location: Brest, Belarus
 * Tel. number: +375339127916
 * e-mail: Georgii070684@gmail.com
+  
 
 ## Information about me
 
@@ -13,8 +14,9 @@
 
 * Basic HTML
 * Basic CCS
-* Basic JavaScript
+* Basic JavaScript (work with DOM)
 * Basic Git
+  
   
 ## Code
 
@@ -30,13 +32,13 @@ function updateLight(current) {
 ```
 ## Experience
 
-* Studying at the Rolling Scopes School)
+* Studying at the Rolling Scopes School
   
 
 ## Education
 
-* __University__: Brest State Technical University
+* __University__: Brest State Technical University 
   
 ## English
 
-A1 (but it is not exactly).
+A1 (but it is not exactly). I plan to start learning English 
