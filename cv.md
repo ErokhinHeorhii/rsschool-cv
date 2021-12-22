@@ -41,4 +41,4 @@ function updateLight(current) {
   
 ## English
 
-A1 (but it is not exactly). I plan to start learning English 
+A1 (but it is not exactly). I plan to start learning English again.
