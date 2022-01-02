@@ -1,34 +1,40 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth; 
-  }
+}
+
 @font-face {
     font-family: "Karla";
     src: url(./assets/fonts/Karla/Karla-Italic-VariableFont_wght.ttf);
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
-   }
+}
 
 header,
 footer {
-    /* margin-top: 20px; */
     background-color:rgb(214, 209, 209);
-    /* height: 7vh;
-    align-items: center; */
 }
+
 .nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0;
 }
+
 .nav {
     padding: 13px 0px;
 }
+
 .nav-link, 
 .github-link {
     text-decoration: none;
@@ -36,6 +42,7 @@ footer {
     transition: .4s;  
     color:rgb(11, 55, 99);;
 }
+
 .nav-link:hover, 
 .github-link:hover {
     color: darkgray;
@@ -53,33 +60,23 @@ body {
     color: rgb(11, 55, 99);
 }
 
-.header {
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 0;
-}
 .section-avatar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    font-size: 25px;
+    font-size: 22px;
     text-transform: uppercase;
     letter-spacing: 8px;
     color:rgb(11, 55, 99);
-   }
- /* .main-container {
-    display: flex;
-    flex-wrap: wrap;
-}    */
-/* section-contacts {
-    width: 50%;
+}
 
-}  */
-.avatar{
+
+.avatar {
     border-radius:35% ;
 }
-.line{
+
+.line {
     border:none;
     height: 6px;
     color:dimgrey;
@@ -87,30 +84,27 @@ body {
     width:95%;
     margin: 0 auto;
 }
+
 section {
     width: 100%;
     margin: 0 auto;
 }
+
 h2  {
     padding: 5px 50px;
     font-size: 25px;
     font-weight: 700;
 }
-/* .code {
-    display: flex;
-    justify-content: flex-start;
- 
-} */
  
   ul,
   div,
  .contacts-list {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 200;
      margin: 0 auto;
 }
 pre {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 200;
      margin: 0 auto;
      padding: 0;
@@ -121,29 +115,30 @@ ul > li {
     padding-top: 5px;
     margin:0;
 }
-.contacts-list >:last-child a {
+
+.contacts-item {
     text-decoration: none;
     transition: .4s;  
     color:rgb(11, 55, 99);
 }
 
-.contacts-list >:last-child  a:hover{
+.contacts-item:hover{
     color:darkgray
 }
+
 .information,
 h2 {
     line-height: 1.5;
 }
 .footer-container {
-display: flex;
-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
+
 .rss-link{
   width: 150px;
   height: auto;
   background-image: url("./assets/rs_school_js.svg");  
    background-size: contain;
    background-repeat: no-repeat;
-   
-
 }
