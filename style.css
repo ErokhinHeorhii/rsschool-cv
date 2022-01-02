@@ -36,10 +36,8 @@ footer {
     transition: .4s;  
     color:rgb(11, 55, 99);;
 }
-.nav-link:hover{
-    color: darkgray;
-}
-.github-link:hover{
+.nav-link:hover, 
+.github-link:hover {
     color: darkgray;
 }
 
@@ -66,7 +64,6 @@ body {
     align-items: center;
     padding: 20px;
     font-size: 25px;
-    /* margin: 0 auto; */
     text-transform: uppercase;
     letter-spacing: 8px;
     color:rgb(11, 55, 99);
@@ -99,7 +96,12 @@ h2  {
     font-size: 25px;
     font-weight: 700;
 }
- pre,
+/* .code {
+    display: flex;
+    justify-content: flex-start;
+ 
+} */
+ 
   ul,
   div,
  .contacts-list {
@@ -107,13 +109,15 @@ h2  {
     font-weight: 200;
      margin: 0 auto;
 }
-p {
-    /* padding: 10px 20px; */
-    
+pre {
+    font-size: 20px;
+    font-weight: 200;
+     margin: 0 auto;
+     padding: 0;
+    width: 100%;
 }
 
-
-ul > li{
+ul > li {
     padding-top: 5px;
     margin:0;
 }
@@ -121,10 +125,10 @@ ul > li{
     text-decoration: none;
     transition: .4s;  
     color:rgb(11, 55, 99);
-
 }
+
 .contacts-list >:last-child  a:hover{
-color:darkgray
+    color:darkgray
 }
 .information,
 h2 {
