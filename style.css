@@ -20,6 +20,7 @@ html {
 .header,
 footer {
     background-color: blue;
+    min-height: 85px;
 }
 .nav-list {
     display: flex;
@@ -33,7 +34,6 @@ footer {
 
 .nav {
     padding: 13px 0px;
-    border-bottom: 3px solid;
     font-weight: bold;
 }
 
@@ -148,6 +148,7 @@ div,
     position: absolute;
     content: "";
     left: -57px;
+    top: 10px;
     width: 30px;
     height: 30px;
     background-image: url(./assets/icon-email.svg);
@@ -159,6 +160,7 @@ div,
     position: absolute;
     content: "";
     left: -57px;
+    top: 9px;
     width: 30px;
     height: 30px;
     background-image: url(./assets/Discord-Logo-Color.svg);
@@ -258,4 +260,10 @@ h2 {
 
         border-bottom: 3px solid;
     }
+}
+@media (max-width: 768px){
+.nav-list{
+    display: none;
+}
+
 }
