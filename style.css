@@ -125,6 +125,10 @@ div,
     text-indent: 20px;
 }
 
+.name{
+align-self: centre;
+text-align: center;
+}
 
 .location,
 .e-mail,
